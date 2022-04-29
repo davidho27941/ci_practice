@@ -1,7 +1,7 @@
 pipeline {
 	agent {
 		docker {
-			image 'ubuntu:latest'
+			image 'python:3.10.1-alpine'
 			args '-d -p 8000:8000'
 		}
 	}
