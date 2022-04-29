@@ -1,7 +1,7 @@
 pipeline {
 	agent {
 		docker {
-			image 'python:3.10.1-alpine'
+			image 'davidho9717/ubuntu:HEPSimulation-minimal'
 			args '-d -p 8000:8000'
 		}
 	}
